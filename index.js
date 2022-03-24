@@ -3,7 +3,7 @@ import router from './routes/index.js'
 import swaggerDocs from './swagger.js'
 
 const app = express()
-const port = 4000
+const port = 1000
 
 app.use(express.json())
 app.use(router)
