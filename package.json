@@ -7,11 +7,7 @@
   "scripts": {
     "coveralls": "nyc report --reporter=text-lcov | coveralls",
     "dev": "nodemon --exec ./node_modules/.bin/babel-node app.js",
-    "start": "nodemon  app.js",
-    "coverage:badge": "coverage-badge-creator --config './.badge-config'",
-    "make-badges": "istanbul-badges-readme",
-    "test": "NODE_ENV=test nyc ./node_modules/.bin/_mocha <your-test-matching-wildcard-here>",
-    "tests": "mocha --recursive --exit --timeout 1000000 --require @babel/register tests/testing.js"
+    "start": "nodemon  index.js"
   },
   "author": "Gyssagara",
   "license": "ISC",
