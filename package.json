@@ -7,7 +7,7 @@
   "scripts": {
     "coveralls": "nyc report --reporter=text-lcov | coveralls",
     "dev": "nodemon --exec ./node_modules/.bin/babel-node app.js",
-    "start": "index.js"
+    "start": "node index.js"
   },
   "author": "Gyssagara",
   "license": "ISC",
