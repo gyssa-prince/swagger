@@ -8,7 +8,8 @@ const port = 4000
 app.use(express.json())
 app.use(router)
 
-app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`)
+
   swaggerDocs(app, port)
-})
+
+//To listen the server
+app.listen(process.env.PORT || 4000);
